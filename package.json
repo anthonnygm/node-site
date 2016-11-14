@@ -1,0 +1,19 @@
+{
+  "name": "node-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthonny Machado <anthonny.gm@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
